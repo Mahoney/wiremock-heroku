@@ -26,5 +26,7 @@ git push heroku master
 ```
 - Check it
 ```
-curl http://<unique_app_name>.herokuapp.com/__admin/
+curl http://<unique_app_name>.herokuapp.com/__admin/mappings/new \
+-d '{ "request": { "url": "/", "method": "GET" }, "response": { "body": "This is WireMock running on Heroku\n" }}'
+curl http://<unique_app_name>.herokuapp.com/
 ```
