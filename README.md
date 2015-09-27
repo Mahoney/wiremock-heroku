@@ -1,6 +1,11 @@
 # wiremock-heroku
-A simple way to deploy WireMock on to Heroku
+A simple way to deploy [WireMock](http://www.wiremock.org) on to Heroku
 
+## Prerequisites
+- [Heroku account](https://signup.heroku.com)
+- [Heroku toolbelt installed](https://toolbelt.heroku.com)
+
+## Instructions
 - Clone this repository
 ```
 git clone git@github.com:Mahoney/wiremock-heroku.git
