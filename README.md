@@ -10,7 +10,7 @@ cd wiremock-heroku
 ```
 heroku create <unique_app_name>
 ```
-- Add the Energized Work downloadable jar buildpack
+- Add the [Energized Work](http://www.energizedwork.com) downloadable jar buildpack
 ```
 heroku config:set 'NO_PRE_DEPLOY=true'
 heroku buildpacks:set https://github.com/energizedwork/heroku-buildpack-runnable-jar
