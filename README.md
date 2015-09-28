@@ -6,6 +6,13 @@ A simple way to deploy [WireMock](http://www.wiremock.org) on to Heroku
 - [Heroku toolbelt installed](https://toolbelt.heroku.com)
 
 ## Instructions
+
+### TLDR:
+    git clone git@github.com:Mahoney/wiremock-heroku.git && \
+    cd wiremock-heroku && \
+    ./wiremock-heroku.sh <unique_app_name>
+
+### For those who want to understand:
 - Clone this repository
 ```
 git clone git@github.com:Mahoney/wiremock-heroku.git
