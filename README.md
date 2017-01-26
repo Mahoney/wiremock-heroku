@@ -8,14 +8,14 @@ A simple way to deploy [WireMock](http://www.wiremock.org) on to Heroku
 ## Instructions
 
 ### TLDR:
-    git clone git@github.com:Mahoney/wiremock-heroku.git && \
+    git clone git@github.com:jimirocks/wiremock-heroku.git && \
     cd wiremock-heroku && \
     ./wiremock-heroku.sh <unique_app_name>
 
 ### For those who want to understand:
 - Clone this repository
 ```
-git clone git@github.com:Mahoney/wiremock-heroku.git
+git clone git@github.com:jimirocks/wiremock-heroku.git
 cd wiremock-heroku
 ```
 - Add a heroku remote
